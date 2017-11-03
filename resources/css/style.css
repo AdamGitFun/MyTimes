@@ -63,7 +63,7 @@ h1 {
   justify-content: space-around;
 
   width: 630px;
-  border: 1px solid black;
+
   margin: 10px 15px 10px 15px;
 
 }
@@ -95,17 +95,17 @@ h1 {
 
 .column.medium {
  width: 300px;
- border: 1px solid black;
+
  margin: 10px 15px 10px 15px;
 }
 
 .column.small {
   display: inline-flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 240px;
-  border: 1px solid black;
+
   margin: 10px 15px 10px 15px;
 
 }
@@ -134,7 +134,7 @@ h2.column.small {
   align-items: center;
   flex-direction: column;
   width: 100%;
-  border: 8px dotted red;
+
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
@@ -151,15 +151,15 @@ h2.column.small {
 }
 
 .bottom-nav {
-  border: 5px solid blue;
+
 }
 
 .bottom-logo {
-  border: 5px dotted green;
+
 }
 
 .copyright {
-  border: 10px solid yellow;
+
 }
 
 #bottom-logo-font {
@@ -176,16 +176,25 @@ p {
   color: black;
 }
 
-h3.article-image {
-    font-family: Georgia;
-    font-weight: bold;
-    font-size: 30px;
+h3.article-image.tuna {
     color: white;
+    font-size: 40px;
+
+
 }
 
-h3.article-image.main-story {
-  font-size: 40px;
+.article-image {
+  display: flex;
+
 }
+
+.article-image h3 {
+  font-weight: bold;
+  font-family: Georgia;
+  color: white;
+
+}
+
 
 .tuna {
   width: 600px;
